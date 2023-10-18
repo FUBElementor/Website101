@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: blueviolet; /* Background color for the entire page */
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2); /* Add a shadow to the header */
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .table-container {
+            background-color: #fff;
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow to the table container */
+            border-radius: 5px; /* Rounded corners for the table container */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        /* Media Query for Tablets and Smaller Screens */
+        @media (max-width: 768px) {
+            .table-container {
+                max-width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Venus</h1>
+    </div>
+
+    <div class="content">
+        <h2>I want to learn how to code</h2>
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th style="background-color: hotpink; color: #fff;">About Me</th>
+                    <th style="background-color: deeppink; color: #fff;">My Goal</th>
+                </tr>
+                <tr>
+                    <td>Curious</td>
+                    <td>1 year</td>
+                </tr>
+                <!-- Add more table rows as needed -->
+            </table>
+        </div>
+
+        <p>Thank you for checking in.</p>
+        <!-- Add more content here -->
+    </div>
+</body>
+</html>
